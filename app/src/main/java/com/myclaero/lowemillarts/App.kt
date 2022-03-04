@@ -13,6 +13,7 @@ class App: Application() {
 			.clientKey("LOWEMILLDEVKEY")
 			.server("http://localhost:1337/parse/")
 			.build()
+
 		Parse.initialize(config)
 	}
 }
